@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+}
+
+.styled-select {
+  background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+  height: 29px;
+  overflow: hidden;
+  width: 240px;
+}
+
+.styled-select select {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px;
+  width: 268px;
+}
+
+.semi-square {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.white {
+  background-color: #CECECE;
+  display: inline-block;
+}
+
+input[type=submit] {
+  display: block;
+  margin: 20px auto;
+  background-color: #66bb6a;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.row {
+  margin: 30px 0;
+}
+
+img {
+  padding: 0 30px;
+}
