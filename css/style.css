@@ -45,4 +45,17 @@ input[type=submit] {
 
 img {
   padding: 0 30px;
+  -webkit-transition: all 1s ease; 
+  -moz-transition: all 1s ease; 
+  -o-transition: all 1s ease; 
+  transition: all 1s ease;
+}
+
+.fade {
+  -webkit-filter: grayscale(1); 
+  -webkit-filter: grayscale(100%); 
+  filter: gray; 
+  filter: grayscale(100%); 
+  filter: url(desaturate.svg#greyscale);
+  opacity: 0.5;
 }

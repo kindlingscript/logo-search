@@ -10,19 +10,17 @@
   <h1>Society Education Programs</h1>
   <form>
     <div class="styled-select white semi-square">
-      <select>
+      <select id="program">
         <option selected disabled>Program Type</option>
         <option>Scholarship</option>
         <option>Loan</option>
       </select>
     </div>
     <div class="styled-select white semi-square">
-      <select>
+      <select id="education">
         <option selected disabled>Education Level</option>
+        <option>K-12</option>
         <option>High School</option>
-        <option>Community College</option>
-        <option>University</option>
-        <option>Post-Grad</option>
       </select>
     </div>
     <input type="submit"></input>
@@ -30,20 +28,20 @@
 
   <section class="logos">
     <div class="row">
-      <img src="images/acm-fade.png" class="acm">
-      <img src="images/aci-fade.png" class="aci">
-      <img src="images/afe-fade.png" class="afe">
-      <img src="images/aci-fade.png" class="aci">
+      <img src="images/acm-color.png" class="acm fade scholarship-hs">
+      <img src="images/aci-color.png" class="aci fade k12">
+      <img src="images/afe-color.png" class="afe fade loan-k12">
+      <img src="images/aci-color.png" class="aci fade scholarship">
     </div>
     <div class="row">
-      <img src="images/aci-fade.png" class="aci">
-      <img src="images/afe-fade.png" class="afe">
-      <img src="images/acm-fade.png" class="acm">
-      <img src="images/afe-fade.png" class="afe">
+      <img src="images/aci-color.png" class="aci fade loan-hs">
+      <img src="images/afe-color.png" class="afe fade loan">
+      <img src="images/acm-color.png" class="acm fade hs">
+      <img src="images/afe-color.png" class="afe fade scholarship-k12">
     </div>
   </section>
 
-  <script src=""></script>
+  <script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
